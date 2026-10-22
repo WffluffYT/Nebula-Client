@@ -1,0 +1,20 @@
+{
+	"schemaVersion": 1,
+	"id": "nebula",
+	"version": "${version}",
+	"name": "Nebula Client",
+	"description": "A clean purple & black utility client: Xray, Fullbright, FPS Boost, Zoom, HUD and more.",
+	"authors": ["WFFLUFF"],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["com.nebula.NebulaClient"]
+	},
+	"mixins": ["nebula.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
